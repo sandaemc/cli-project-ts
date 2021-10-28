@@ -1,0 +1,16 @@
+{
+  "name": "cli-project-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "author": "Sandae Macalalag <sandaemc@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
