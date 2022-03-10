@@ -8,6 +8,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "incremental": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "sourceMap": true
   }
 }
